@@ -8,15 +8,9 @@
 <script type="text/javascript">
     window.onload = function() {
         var langs_availables = ['es', 'pt'];
-        var ln = x=window.navigator.language||navigator.browserLanguage;
+        var ln = window.navigator.language || navigator.browserLanguage;
         var lang = ln[0] + ln[1];
-        
-        var redirect;
-        if (langs_availables.indexOf(lang) === -1) {
-            redirect = 'en/index.html';
-        } else {
-            redirect = lang + '/index.html';
-        }
+        var redirect = langs_availables.indexOf(lang) === -1 ? 'en/' : lang + '/';
         window.location.href = redirect;
     }
 </script>
