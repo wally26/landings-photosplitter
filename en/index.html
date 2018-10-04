@@ -1,10 +1,240 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html>
 
+<head>
+    <title>Photo Splitter - Postcron</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="../img/favicon.png" />
+
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome 4 -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- Own Css -->
+    <link rel="stylesheet" href="../css/photosplitter_style_landing.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.php"><img src="../img/logo_photosplitter.svg" width="160" alt="Photo Splitter - Postcron" /></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://postcron.com/" target="_blank" class="by-postcron"><img src="../img/logo_by_postcron.svg"
+                                width="90" alt="Ir a Postcron" /></a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Fin NavBar -->
+
+    <div class="container cont-landing">
+
+        <div class="col-lg-6 col-lg-push-6">
+            <img class="img-mainview" src="../img/landing/photosplitter_mainview.jpg" alt="PhotoSplitter - Postcron" />
+        </div>
+        <div class="col-lg-6 col-lg-pull-6">
+            <h1 class="title">FREE INSTAGRAM PHOTO SPLITTER</h1>
+            <h2 class="subtitle"> If you were asking <b>How to divide your Instagram photos into smaller pieces to make
+                    a giant square</b>, you are in the right place! </h2>
+            <a href="#" class="cta">Get Started!</a>
+        </div>
+
+        <img class="waves" src="../img/landing/photosplitter_waves.png" alt="PhotoSplitter - Postcron" />
+
+        <h3 class="section-tit">How to split photos into an<br>Instagram grid in <span>4 easy steps</span></h3>
+
+        <div class="container text-center">
+            <div class="block-step">
+                <div class="num">1</div>
+                <img src="../img/landing/step01.png" alt="Photosplitter - Postcron" />
+                <div class="tit">Upload your image</div>
+                <div class="desc">Select an image on your computer and press upload.</div>
+            </div>
+            <div class="block-step">
+                <div class="num">2</div>
+                <img src="../img/landing/step02.png" alt="Photosplitter - Postcron" />
+                <div class="tit">Choose the size of your grid</div>
+                <div class="desc">Choose how many rows and columns you want to split your image into.</div>
+            </div>
+            <div class="block-step">
+                <div class="num">3</div>
+                <img src="../img/landing/step03.png" alt="Photosplitter - Postcron" />
+                <div class="tit">Click on “Split” and Download your sliced image</div>
+                <div class="desc">Your sliced images will be packed into one ZIP file to make it easier to download.</div>
+            </div>
+            <div class="block-step">
+                <div class="num">4</div>
+                <img src="../img/landing/step04.png" alt="Photosplitter - Postcron" />
+                <div class="tit">Automatically post them to Instagram</div>
+                <div class="desc">Use Postcron to automatically post all your images in the correct sequence and with a
+                    single click.</div>
+            </div>
+            <a href="#" class="cta-2">Upload Image!</a>
+        </div>
+
+        <img class="waves" src="../img/landing/photosplitter_waves.png" alt="PhotoSplitter - Postcron" />
+
+        <div class="container cont-demo">
+            <div class="col-lg-6 col-lg-push-6"><img class="img-demo" src="../img/landing/demo1_photosplitter_postcron.png" /></div>
+            <div class="col-lg-6 col-lg-pull-6">
+                <div class="tit-demo">
+                    Customize your Instagram grid to tell a story – one that's uniquely yours!
+                </div>
+                <div class="desc-demo">
+                    If a picture's worth a thousand words, then what's a photo collage worth?<br><br>
+                    With PhotoSplitter you can easily slice an image to create breathtaking Instagram grids collage.<br><br>
+                    Simply upload your photos to our <b>Splitter Wizard and we'll automatically slice your image for
+                        you… FOR FREE!</b>
+                </div>
+            </div>
+        </div>
+        <!-- -->
+        <div class="container cont-demo">
+            <div class="col-lg-6"><img class="img-demo" src="../img/landing/demo2_photosplitter_postcron.gif" /></div>
+            <div class="col-lg-6">
+                <div class="tit-demo">
+                    Increase instagram engagement with great ideas!
+                </div>
+                <div class="desc-demo">
+                    Use PhotoSplitter to <b>increase your instagram engagement.</b><br><br>
+                    If you need more space to give important information, use a 3x6 grid to explain it better!<br><br>
+                    <b>Make a contest:</b> ask your audience to comment, like and guess what is the grid going to look
+                    like.<br><br>
+                    Use all your instagram grid to <b>promote an upcoming event!</b>
+                </div>
+            </div>
+            <!-- -->
+            <div class="container cont-demo">
+                <div class="col-lg-6 col-lg-push-6"><img class="img-demo" src="../img/landing/demo3_photosplitter_postcron.gif" /></div>
+                <div class="col-lg-6 col-lg-pull-6">
+                    <div class="tit-demo">
+                        Automatically post your images on Instagram
+                    </div>
+                    <div class="desc-demo">
+                        Avoid uploading every sliced image one by one manually. <b>Auto post all your images on
+                            instagram with just one click with Postcron.</b>
+                    </div>
+                </div>
+            </div>
+            <!-- -->
+            <div class="col-lg-12 text-center">
+                <a href="#" class="cta-2">Get Started!</a>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid footer-comercial">
+        <div class="container">
+            <div class="list-group panel columns first-list">
+                <a href="#colum1" class="title" data-toggle="collapse">Social Media Image Sizes: <i class="fa fa-angle-down"></i></a>
+                <div class="collapse in in-column colapse _close-foot-mov" id="colum1">
+                    <br>
+                    <a href="https://postcron.com/en/blog/facebook-images-size-tips-and-more" target="_blank" class="link">Facebook
+                        picture size</a>
+                    <a href="https://postcron.com/en/blog/instagram-pictures-size-tips-and-more" target="_blank" class="link">Instagram
+                        pictures Size</a>
+                    <a href="https://postcron.com/en/blog/twitter-images-size-tips-and-more" target="_blank" class="link">Twitter
+                        picture size</a>
+                    <a href="https://postcron.com/en/blog/linkedin-images-size-tips-and-more" target="_blank" class="link">LinkedIn
+                        picture size</a>
+                    <a href="https://postcron.com/en/blog/google-plus-images-size-tips-and-more" target="_blank" class="link">Google
+                        Plus picture size</a>
+                    <a href="https://postcron.com/en/blog/pinterest-images-size-tips-and-more" target="_blank" class="link">Pinterest
+                        picture size</a>
+                    <a href="https://postcron.com/en/blog/youtube-channel-art-size-tips-and-more" target="_blank" class="link">Youtube
+                        picture size</a>
+                </div>
+            </div>
+            <div class="list-group panel columns">
+                <a href="#colum2" class="title" data-toggle="collapse">With Postcron, you can: <i class="fa fa-angle-down"></i></a>
+                <div class="collapse in in-column colapse _close-foot-mov" id="colum2">
+                    <br>
+                    <a href="https://postcron.com/en/blog/landings/schedule-facebook-posts" target="_blank" class="link">Schedule
+                        Facebook Posts</a>
+                    <a href="https://postcron.com/en/blog/landings/schedule-tweets" target="_blank" class="link">Schedule
+                        Tweets</a>
+                    <a href="https://postcron.com/en/blog/landings/schedule-posts-on-google-plus" target="_blank" class="link">Schedule
+                        Posts on Google Plus</a>
+                    <a href="https://postcron.com/en/blog/landings/schedule-pins-on-pinterest" target="_blank" class="link">Schedule
+                        Pins on Pinterest.</a>
+                    <a href="https://postcron.com/en/blog/landings/schedule-post-on-linkedIn" target="_blank" class="link">Schedule
+                        Posts on LinkedIn</a>
+                    <a href="https://postcron.com/en/blog/landings/schedule-posts-on-instagram-postcron" target="_blank"
+                        class="link">Schedule Posts on Instagram</a>
+                </div>
+            </div>
+            <div class="list-group panel columns">
+                <a href="#colum3" class="title" data-toggle="collapse">Social Media Tips and More: <i class="fa fa-angle-down"></i></a>
+                <div class="collapse in in-column colapse _close-foot-mov" id="colum3">
+                    <br>
+                    <a href="https://postcron.com/en/blog/social-media-image-dimensions-sizes/" target="_blank" class="link">Image
+                        Sizes And Dimensions For Facebook, Instagram, Twitter and more</a>
+                    <a href="https://postcron.com/en/blog/instagram-stories/" target="_blank" class="link">Instagram
+                        Stories</a>
+                    <a href="https://postcron.com/en/blog/infographics-social-media-image-sizes/" target="_blank" class="link">Infographics
+                        Social media image dimensions sizes</a>
+                </div>
+            </div>
+            <div class="list-group panel columns last-list">
+                <a href="#colum4" class="title" data-toggle="collapse">More information: <i class="fa fa-angle-down"></i></a>
+                <div class="collapse in in-column colapse _close-foot-mov" id="colum4">
+                    <br>
+                    <a href="https://postcron.com/artstudio/en/landings/terms-and-conditions-privacy-policy" target="_blank"
+                        class="link">Terms, condition and privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        //Footer Mobile
+        if ($(document).width() > 991) {
+            $('.footer-comercial .columns .title').removeAttr('href');
+        }
+
+        $(document).ready(function () {
+            footerDevice();
+        });
+
+        $(window).on('resize', function () {
+            footerDevice();
+        });
+
+        function footerDevice() {
+            if ($(window).width() < 991) {
+                $("._close-foot-mov").removeClass("in");
+            } else {
+                $("._close-foot-mov").addClass("in");
+            }
+        }
+    </script>
+    <!-- Fin Footer -->
 </body>
+
 </html>

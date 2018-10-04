@@ -1,10 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html>
 
+<head>
+    <title>Photo Splitter - Postcron</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="../img/favicon.png" />
+
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome 4 -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- Own Css -->
+    <link rel="stylesheet" href="../css/photosplitter_style_landing.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.php"><img src="../img/logo_photosplitter.svg" width="160" alt="Photo Splitter - Postcron" /></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://postcron.com/" target="_blank" class="by-postcron"><img src="../img/logo_by_postcron.svg"
+                                width="90" alt="Ir a Postcron" /></a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Fin NavBar -->
+
+    <div class="container cont-landing">
+
+        <div class="col-lg-6 col-lg-push-6">
+            <img class="img-mainview" src="../img/landing/photosplitter_mainview.jpg" alt="PhotoSplitter - Postcron" />
+        </div>
+        <div class="col-lg-6 col-lg-pull-6">
+            <h1 class="title">MOSAICO DE FOTOS PARA O INSTAGRAM GRÁTIS</h1>
+            <h2 class="subtitle">Se você não sabe <b>como cortar suas fotos para criar mosaicos para o Instagram,</b>
+                você está no lugar certo!</h2>
+            <a href="#" class="cta">Començar Agora!</a>
+        </div>
+
+        <img class="waves" src="../img/landing/photosplitter_waves.png" alt="PhotoSplitter - Postcron" />
+
+        <h3 class="section-tit">Como cortar suas fotos para criar <br>mosaicos para o Instagram em <span>4 passos</span></h3>
+
+        <div class="container text-center">
+            <div class="block-step">
+                <div class="num">1</div>
+                <img src="../img/landing/step01.png" alt="Photosplitter - Postcron" />
+                <div class="tit">Faça upload da sua imagem</div>
+                <div class="desc">Selecione uma imagem do seu computador e clique em "Fazer Upload"</div>
+            </div>
+            <div class="block-step">
+                <div class="num">2</div>
+                <img src="../img/landing/step02.png" alt="Photosplitter - Postcron" />
+                <div class="tit">Escolha o tamanho da grade</div>
+                <div class="desc">Escolha a quantidade de fileiras e colunas para cortar sua imagem</div>
+            </div>
+            <div class="block-step">
+                <div class="num">3</div>
+                <img src="../img/landing/step03.png" alt="Photosplitter - Postcron" />
+                <div class="tit">Clique em "Recortar" e baixe sua imagem cortada</div>
+                <div class="desc">Suas imagens cortadas serão comprimidas num arquivo ZIP para facilitar o download.</div>
+            </div>
+            <div class="block-step">
+                <div class="num">4</div>
+                <img src="../img/landing/step04.png" alt="Photosplitter - Postcron" />
+                <div class="tit">Publique-as automaticamente no Instagram</div>
+                <div class="desc">Use o Postcron para publicar suas imagens automaticamente e na ordem certa com apenas
+                    um clique.</div>
+            </div>
+            <a href="#" class="cta-2">Fazer Upload!</a>
+        </div>
+
+        <img class="waves" src="../img/landing/photosplitter_waves.png" alt="PhotoSplitter - Postcron" />
+
+        <div class="container cont-demo">
+            <div class="col-lg-6 col-lg-push-6"><img class="img-demo" src="../img/landing/demo1_photosplitter_postcron.png" /></div>
+            <div class="col-lg-6 col-lg-pull-6">
+                <div class="tit-demo">
+                    Customize sua grade do Instagram para contar uma história única!
+                </div>
+                <div class="desc-demo">
+                    Se uma imagem vale mais que mil palavras, quanto vale um mosaico de imagens?<br><br>
+                    Com o PhotoSplitter você podes cortar suas fotos facilmente para criar um mosaico de fotos
+                    impressionante.<br><br>
+                    Faça o upload das suas fotos ao nosso <b>Splitter Wizard e nós automaticamente cortaremos sua
+                        imagem por você.. E GRÁTIS!</b>
+                </div>
+            </div>
+        </div>
+        <!-- -->
+        <div class="container cont-demo">
+            <div class="col-lg-6"><img class="img-demo" src="../img/landing/demo2_photosplitter_postcron.gif" /></div>
+            <div class="col-lg-6">
+                <div class="tit-demo">
+                    Aumente seu engagement no Instagram com boas ideias!
+                </div>
+                <div class="desc-demo">
+                    Use o PhotoSplitter para <b>aumentar seu engagement no Instagram.</b><br><br>
+                    Se você precisa de mais espaço para dar informações importantes, use a grade 3x6 para explicar
+                    melhor!<br><br>
+                    <b>Faça um sorteio:</b> peça a sua a audiência que adivinhe como ficará a grade completa nos
+                    comentários.<br><br>
+                    Use sua grade do Instagram para <b>promocionar um evento!</b>
+                </div>
+            </div>
+            <!-- -->
+            <div class="container cont-demo">
+                <div class="col-lg-6 col-lg-push-6"><img class="img-demo" src="../img/landing/demo3_photosplitter_postcron.gif" /></div>
+                <div class="col-lg-6 col-lg-pull-6">
+                    <div class="tit-demo">
+                        Publique suas imagens no Instagram
+                    </div>
+                    <div class="desc-demo">
+                        Evite publicar cada foto cortada manualmente e uma por uma. <b>Publique suas fotos
+                            automaticamente no Instagram com apenas um clique através do Postcron.</b>
+                    </div>
+                </div>
+            </div>
+            <!-- -->
+            <div class="col-lg-12 text-center">
+                <a href="#" class="cta-2">Començar Agora!</a>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid footer-comercial">
+        <div class="container">
+            <div class="list-group panel columns first-list">
+                <a href="#colum1" class="title" data-toggle="collapse">Medidas e tamanhos para Redes Sociais: <i class="fa fa-angle-down"></i></a>
+                <div class="collapse in in-column colapse _close-foot-mov" id="colum1">
+                    <br>
+                    <a href="https://postcron.com/artstudio/pt/landings/tamanho-imagens-facebook" target="_blank" class="link">Tamanho
+                        de Imagens para Facebook</a>
+                    <a href="https://postcron.com/artstudio/pt/landings/tamanho-imagens-instagram" target="_blank"
+                        class="link">Tamanho de Imagens para Instagram</a>
+                    <a href="https://postcron.com/artstudio/pt/landings/tamanho-imagens-twitter" target="_blank" class="link">Tamanho
+                        de Imagens para Twitter</a>
+                    <a href="https://postcron.com/artstudio/pt/landings/tamanho-imagens-linkedin" target="_blank" class="link">Tamanho
+                        de Imagens para LinkedIn</a>
+                    <a href="https://postcron.com/artstudio/pt/landings/tamanho-imagens-googleplus" target="_blank"
+                        class="link">Tamanho de Imagens para Google Plus</a>
+                    <a href="https://postcron.com/artstudio/pt/landings/tamanho-imagens-pinterest" target="_blank"
+                        class="link">Tamanho de Imagens para Pinterest</a>
+                    <a href="https://postcron.com/artstudio/pt/landings/tamanho-imagens-youtube" target="_blank" class="link">Tamanho
+                        de Imagens para Canal do Youtube</a>
+                </div>
+            </div>
+            <div class="list-group panel columns">
+                <a href="#colum2" class="title" data-toggle="collapse">Com Postcron você pode: <i class="fa fa-angle-down"></i></a>
+                <div class="collapse in in-column colapse _close-foot-mov" id="colum2">
+                    <br>
+                    <a href="https://postcron.com/pt/blog/landings/agendar-publicacoes-no-facebook/" target="_blank"
+                        class="link">Agendar Posts no Facebook</a>
+                    <a href="https://postcron.com/pt/blog/landings/programar-tweets/" target="_blank" class="link">Agendar
+                        Tweets</a>
+                    <a href="https://postcron.com/pt/blog/landings/programar-e-postar-no-google-plus/" target="_blank"
+                        class="link">Agendar Posts no Google Plus</a>
+                    <a href="https://postcron.com/pt/blog/landings/programar-e-postar-fotos-no-pinterest/" target="_blank"
+                        class="link">Agendar Pins no Pinterest</a>
+                    <a href="https://postcron.com/pt/blog/landings/programar-posts-y-publicar-en-linkedIn/" target="_blank"
+                        class="link">Agendar Posts no LinkedIn</a>
+                    <a href="https://postcron.com/pt/blog/landings/programar-e-postar-fotos-no-instagram/" target="_blank"
+                        class="link">Agendar Posts no Instagram</a>
+                </div>
+            </div>
+            <div class="list-group panel columns">
+                <a href="#colum3" class="title" data-toggle="collapse">Conselhos e dicas paras as Redes Sociais: <i
+                        class="fa fa-angle-down"></i></a>
+                <div class="collapse in in-column colapse _close-foot-mov" id="colum3">
+                    <br>
+                    <a href="https://postcron.com/pt/blog/medidas-e-tamanhos-da-foto-de-capa/" target="_blank" class="link">Tamanho
+                        de Imagens para Redes Sociais</a>
+                    <a href="https://postcron.com/pt/blog/instagram-stories/" target="_blank" class="link">Instagram
+                        Stories</a>
+                    <a href="https://postcron.com/pt/blog/infografico-tamanhos-de-imagens-para-redes-sociais/" target="_blank"
+                        class="link">Infográfico: Tamanhos Recomendados de Imagens para Redes Sociais</a>
+                </div>
+            </div>
+            <div class="list-group panel columns last-list">
+                <a href="#colum4" class="title" data-toggle="collapse">Mais informações: <i class="fa fa-angle-down"></i></a>
+                <div class="collapse in in-column colapse _close-foot-mov" id="colum4">
+                    <br>
+                    <a href="https://postcron.com/artstudio/en/landings/terms-and-conditions-privacy-policy" target="_blank"
+                        class="link">Termos, Condições e Política de Privacidade</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        //Footer Mobile
+        if ($(document).width() > 991) {
+            $('.footer-comercial .columns .title').removeAttr('href');
+        }
+
+        $(document).ready(function () {
+            footerDevice();
+        });
+
+        $(window).on('resize', function () {
+            footerDevice();
+        });
+
+        function footerDevice() {
+            if ($(window).width() < 991) {
+                $("._close-foot-mov").removeClass("in");
+            } else {
+                $("._close-foot-mov").addClass("in");
+            }
+        }
+    </script>
+    <!-- Fin Footer -->
 </body>
+
 </html>
