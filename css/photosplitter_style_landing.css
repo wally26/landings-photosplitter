@@ -11,7 +11,8 @@
 .navbar-default .navbar-toggle { border:none; } 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color:rgba(0,0,0,0.1); } 
 .navbar-default .navbar-toggle .icon-bar { background-color:#0C6; height:3px; border-radius:20px; } 
-.navbar-default .social-buttons {float:right; margin-top:15px; height:10px; margin-left:4px;} 
+.navbar-default .social-buttons {float:right; margin-top:15px; height:10px; width:80px; margin-left:4px;} 
+.navbar-default .social-buttons iframe {border:none; overflow: hidden;} 
 .navbar-default .by-postcron {position:relative; margin-left:8px; top:16px;}
 
 
@@ -51,12 +52,16 @@
 
 .cont-landing .content-info {float:left; width:100%; margin:150px 0 60px 0;}
 .cont-landing .content-info .info-ico {position:relative; display:inline-block; width:70px; margin-right:20px; vertical-align:top;}
+.cont-landing .content-info .info-ico img {width:100%;}
 .cont-landing .content-info .info-imagesplitter {position:relative; display:inline-block; font-size:18px; width:85%; margin-bottom:60px; vertical-align:top; color:#666;}
 .cont-landing .content-info .info-imagesplitter a {color:#0C6;}
 .cont-landing .content-info .listing {float:left; width:44%; margin:0 15px 30px 15px; list-style:none;}
 .cont-landing .content-info .listing li {float:left; min-height:30px; line-height:32px; margin-bottom:4px; padding-left:36px; color:#096; background-image:url('../img/landing/icon_list.png'); background-repeat:no-repeat;}
 
 .cont-landing .tagcloud {float:left; width:100%; margin-top:50px; color:#CCC; text-align:center;}
+.cont-landing .tagcloud .tagA {font-size:1em; margin:0 3px;}
+.cont-landing .tagcloud .tagB {font-size:2em; margin:0 3px;}
+.cont-landing .tagcloud .tagC {font-size:2.3em; margin:0 3px;}
 
 
 
