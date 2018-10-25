@@ -20,9 +20,9 @@
 .cont-landing { padding-top:30px; } 
 .cont-landing .img-mainview { width:120%; margin-left:-10%; } 
 .cont-landing h1 { font-size:20px; margin-top:60px; margin-bottom:2px; font-weight:800; } 
-.cont-landing .clime { font-size:12px; margin-top:2px; margin-bottom:10px;color:#888;} 
-.cont-landing .title { font-size:48px; line-height:52px; margin-top:16px; margin-bottom:40px; font-weight:800; } 
-.cont-landing .subtitle { width:80%; font-size:19px; line-height:24px; margin-top:20px; margin-bottom:40px; font-weight:400; } 
+.cont-landing .clime {font-size:12px; margin-top:2px; margin-bottom:10px;color:#888;} 
+.cont-landing .title {position:relative; display:inline-block; width:100%; font-size:48px; line-height:52px; margin-top:16px; margin-bottom:10px; font-weight:800; } 
+.cont-landing .subtitle {position:relative; display:inline-block; width:80%; font-size:19px; line-height:24px; margin-top:10px; margin-bottom:40px; font-weight:400; } 
 .cont-landing .cta { position:relative; display:inline-block; width:70%; text-align:center; font-size:24px; margin-top:10px; background:#0C6; color:#FFF; padding:14px 30px; border-radius:50px; text-decoration:none; box-shadow: 0 2px 2px rgba(0,0,0,0.2); } 
 .cont-landing .waves { position:relative; display:inline-block; width:100%; margin:80px 0; } 
 .cont-landing .section-tit { position:relative; display:inline-block; width:100%; margin:50px 0 100px 0; text-align:center; font-size:40px; font-weight:600; } 
