@@ -11,7 +11,7 @@
 .navbar-default .navbar-toggle { border:none; } 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color:rgba(0,0,0,0.1); } 
 .navbar-default .navbar-toggle .icon-bar { background-color:#0C6; height:3px; border-radius:20px; } 
-.navbar-default .social-buttons { float:right; margin-top:22px; height:10px; width:80px; margin-left:4px; } 
+.navbar-default .social-buttons { float:right; margin-top:22px; height:26px; width:80px; margin-left:4px; overflow: hidden;} 
 .navbar-default .social-buttons iframe { border:none !important; overflow: hidden; width:80px; } 
 .navbar-default .by-postcron { position:relative; margin-left:8px; top:22px; } 
 .nav .nav-item .dropdown-toggle { color:#666; padding: 24px 15px; } 
